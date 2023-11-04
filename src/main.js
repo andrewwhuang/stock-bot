@@ -1,8 +1,14 @@
 // starts the bot and starts cron job
-console.log('hi')
-function main() {
+
+
+function run() {
     console.log("Starting up application.")
 }
 
-main()
+function main() {
+    run()
 
+    // Insert cron job here
+}
+
+main()

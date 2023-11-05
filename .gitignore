@@ -1,6 +1,4 @@
-package-lock.json
 # Logs
-logs
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -42,9 +40,6 @@ build/Release
 node_modules/
 jspm_packages/
 
-# TypeScript v1 declaration files
-typings/
-
 # TypeScript cache
 *.tsbuildinfo
 
@@ -72,6 +67,7 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+dev.env
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -104,7 +100,6 @@ dist
 # TernJS port file
 .tern-port
 
-.pnp.*
-.yarn/
-yarn.lock
-*.json
+# Rawon cache directories and files
+data.json
+scripts/

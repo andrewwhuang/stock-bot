@@ -1,4 +1,6 @@
-// To get started, initial profiles.json in the top level directory with the following object:
+// To get started, run npm install discord.js ffmpeg fluent-ffmpeg @discordjs/opus ytdl-core --save 
+// Then add the initial profiles.json in the top level directory with the following object:
+
 {
     profiles: []
 }
